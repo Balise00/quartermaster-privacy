@@ -22,7 +22,7 @@
 <h1>Quartermaster privacy policy</h1>
 <p class="meta">Balise Studio · Effective 1 October 2026 · <a href="help.html">Getting started guide</a></p>
 
-<p class="summary"><strong>In short:</strong> everything you put into Quartermaster is stored on your phone. There are no ads, no analytics and no accounts, and we don't sell or share your data. The only things that leave your phone are the ones you switch on yourself: optional connections to Google Calendar, Health Connect and Open Food Facts, and anything you choose to put in a household or friends group, which is synced so the other people in that group can see it.</p>
+<p class="summary"><strong>In short:</strong> everything you put into Quartermaster is stored on your phone. There are no ads and no tracking, you don't need an account, and we don't sell or share your data. The only things that leave your phone are the ones you choose yourself: optional connections to Google Calendar, Health Connect and Open Food Facts; anything you put in a household or friends group, which is synced so the other people in that group can see it; and, only if you turn them on, preset suggestions and "Help improve Quartermaster".</p>
 
 <h2>What the app stores, and where</h2>
 <p>Your meals, recipes, stock, meal plans, schedule, projects, habits, gym sessions, swims, weight, goals and settings are saved in the app's own storage on your device. Uninstalling the app, or using "Erase everything" in Settings, deletes it.</p>
@@ -42,9 +42,19 @@
 <ul>
   <li>the name you choose to show in groups, and a colour;</li>
   <li>what you add to the group: chores and who did them, the shared shopping list, joint projects and their tasks, and the points they earn;</li>
-  <li>if "Share my weekly numbers" is on for that group: this week's counts of workouts, distance, swims, step-goal days and 1 Thing days. Nothing else about your health, meals or weight is shared.</li>
+  <li>if "Share my weekly numbers" is on for that group: this week's counts of workouts, distance, swims, step-goal days and 1 Thing days, and the same counts for each of the last 31 days so group challenges (such as "most swims in October") can be scored. Nothing else about your health, meals or weight is shared;</li>
+  <li>challenges you set in a group: the title, what's being counted, the dates and any target.</li>
 </ul>
-<p>You don't sign in with an email or Google account for this. Firebase gives the app an anonymous id so it can tell members apart. Only members of a group can read it, and you join only with a code someone in the group gives you. Turning off "Share my weekly numbers" deletes your numbers from that group. "Leave group" removes you from it; chores and items you added stay for the others. To have everything you added to a group deleted, email us with the group and the name you used in it.</p>
+<p>By default you don't sign in for this. Firebase gives the app an anonymous id so it can tell members apart.</p>
+<p><strong>Linking to Google (optional).</strong> If you tap "Link to Google" (Settings → Your data, or on the Home tab after a reinstall), your anonymous id is linked to your Google account using Firebase Authentication, so you can sign in again on a new install and get your groups back. Firebase then holds your Google email address and account id, and we store a small profile that only you can read: your group name, colour and the list of groups you're in. It isn't used for anything else. "Delete my sharing account" in Settings → Your data leaves your groups and deletes the profile, the anonymous id and the Google link.</p>
+<p> Only members of a group can read it, and you join only with a code someone in the group gives you. Turning off "Share my weekly numbers" deletes your numbers from that group. "Leave group" removes you from it; chores and items you added stay for the others. To have everything you added to a group deleted, email us with the group and the name you used in it.</p>
+
+<h2>Suggestions and "Help improve Quartermaster" (both optional)</h2>
+<ul>
+  <li><strong>Suggest as a preset.</strong> When you tap the lightbulb on a habit or saved recipe and confirm, that one habit's name and settings, or that recipe's name, portions, ingredients with grams, macros and web address, are sent to us so we can consider making it a ready-made preset. Nothing you've logged goes with it, and it isn't linked to your name.</li>
+  <li><strong>Help improve Quartermaster.</strong> Off unless you turn it on in Settings → Your data, where you can see exactly what would be sent. Once a week it sends: the app version; the names and types of your habits; the names, portions and website of your saved recipes; which features you have switched on; and a few counts (such as how many days you logged in the last four weeks, and how many habits, recipes, batch meals and groups you have). It is stored under a random id that isn't linked to you or your groups. It never includes your meals, weight, health data, schedule or anything you've logged. Turning it off deletes what was sent.</li>
+</ul>
+<p>Both are stored in Google Firebase (Cloud Firestore), can't be read back by the app, and are only used to improve Quartermaster's presets and features.</p>
 
 <h2>Notifications</h2>
 <p>If you allow notifications, the app schedules local notifications on your phone: when rest between gym sets is over, and any reminders you switch on in Settings (for example to log a meal or close the day). They're scheduled by your phone itself. Nothing is sent to a server.</p>
