@@ -20,9 +20,9 @@
 </head>
 <body>
 <h1>Quartermaster privacy policy</h1>
-<p class="meta">Balise Studio · Effective 29 September 2026</p>
+<p class="meta">Balise Studio · Effective 1 October 2026 · <a href="help.html">Getting started guide</a></p>
 
-<p class="summary"><strong>In short:</strong> everything you put into Quartermaster is stored on your phone. We don't run a server, we don't have accounts, and we don't collect, see, sell or share your data. There are no ads and no analytics. The only things that leave your phone are the ones you switch on yourself, and they go directly from your phone to the service involved.</p>
+<p class="summary"><strong>In short:</strong> everything you put into Quartermaster is stored on your phone. There are no ads, no analytics and no accounts, and we don't sell or share your data. The only things that leave your phone are the ones you switch on yourself: optional connections to Google Calendar, Health Connect and Open Food Facts, and anything you choose to put in a household or friends group, which is synced so the other people in that group can see it.</p>
 
 <h2>What the app stores, and where</h2>
 <p>Your meals, recipes, stock, meal plans, schedule, projects, habits, gym sessions, swims, weight, goals and settings are saved in the app's own storage on your device. Uninstalling the app, or using "Erase everything" in Settings, deletes it.</p>
@@ -32,12 +32,21 @@
 <ul>
   <li><strong>Google Calendar.</strong> If you sign in with Google, the app reads your calendar events to build your schedule, and adds, changes or deletes the events you plan in the app (for example project tasks and gym sessions). This happens directly between your phone and Google. We never receive your Google data, and it is not used for anything else or shared with anyone. The app's use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. You can remove access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
   <li><strong>Health Connect.</strong> With your permission, the app reads steps, distance, sleep and weight from Health Connect to show your daily steps, sleep and weight trend. This data stays on your phone. It is never sent anywhere, including to Google Calendar. You can remove access in Health Connect's settings.</li>
-  <li><strong>Barcode lookup.</strong> When you scan or type a product barcode, the barcode number is sent to <a href="https://world.openfoodfacts.org">Open Food Facts</a> to look up the product's name and nutrition. Nothing else is sent with it. Scanning uses Google's on-device barcode scanner, which doesn't need camera permission.</li>
+  <li><strong>Food search and barcode lookup.</strong> When you search for a food by name, or scan or type a product barcode, the words you typed or the barcode number are sent to <a href="https://world.openfoodfacts.org">Open Food Facts</a> to look up products and their nutrition. Nothing else is sent with them. Scanning uses Google's on-device barcode scanner, which doesn't need camera permission.</li>
   <li><strong>Obsidian.</strong> If you use the Obsidian version, data is saved in your own vault's plugin folder.</li>
 </ul>
 
+<h2>Household &amp; friends groups</h2>
+<p>This is optional. If you create or join a group, these things are stored in Google Firebase (Cloud Firestore, run by Google on our behalf) so everyone in the group sees the same thing:</p>
+<ul>
+  <li>the name you choose to show in groups, and a colour;</li>
+  <li>what you add to the group: chores and who did them, the shared shopping list, joint projects and their tasks, and the points they earn;</li>
+  <li>if "Share my weekly numbers" is on for that group: this week's counts of workouts, distance, swims, step-goal days and 1 Thing days. Nothing else about your health, meals or weight is shared.</li>
+</ul>
+<p>You don't sign in with an email or Google account for this. Firebase gives the app an anonymous id so it can tell members apart. Only members of a group can read it, and you join only with a code someone in the group gives you. Turning off "Share my weekly numbers" deletes your numbers from that group. "Leave group" removes you from it; chores and items you added stay for the others. To have everything you added to a group deleted, email us with the group and the name you used in it.</p>
+
 <h2>Notifications</h2>
-<p>If you allow notifications, the app schedules a local notification on your phone when rest between gym sets is over. Nothing is sent to a server.</p>
+<p>If you allow notifications, the app schedules local notifications on your phone: when rest between gym sets is over, and any reminders you switch on in Settings (for example to log a meal or close the day). They're scheduled by your phone itself. Nothing is sent to a server.</p>
 
 <h2>Backups</h2>
 <p>"Export backup" creates a file of your data and opens your phone's share menu. Where it goes (Drive, Files, email…) is up to you. We never receive it.</p>
